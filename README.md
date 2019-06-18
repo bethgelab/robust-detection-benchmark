@@ -6,8 +6,8 @@ https://github.com/bethgelab/robust-detection-benchmark (this repo)
 Stylize arbitrary datasets:
 https://github.com/Hvitgar/stylize-datasets
 
-Corrupt arbitrary datasets: (will move to separate repo):
-https://github.com/Hvitgar/mmdetection_extensions/tree/dev_Evgenia
+Corrupt arbitrary datasets:
+https://github.com/bethgelab/Add-Common-Image-Corruptions
 
 Object detection:
 https://github.com/bethgelab/robust_object_detection
