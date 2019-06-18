@@ -11,3 +11,11 @@ https://github.com/Hvitgar/mmdetection_extensions/tree/dev_Evgenia
 
 Object detection:
 https://github.com/bethgelab/robust_object_detection
+
+## Workflow
+
+1. clone
+2. get data (COCO, Pascal) & MMdetect
+3. stylize.sh
+4. train object detector
+5. corrupt datasets & evaluate
