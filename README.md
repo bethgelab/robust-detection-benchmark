@@ -4,7 +4,7 @@ General project repo, starting point for users & hosting benchmark table:
 https://github.com/bethgelab/robust-detection-benchmark (this repo)
 
 Stylize arbitrary datasets:
-https://github.com/Hvitgar/stylize-datasets
+https://github.com/bethgelab/stylize-datasets
 
 Corrupt arbitrary datasets:
 https://github.com/bethgelab/add-common-image-corruptions
