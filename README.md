@@ -22,19 +22,19 @@ https://github.com/bethgelab/robust_object_detection
 
 ## Robust Detection Benchmark
 
-Coco: Results are evaluated on COCO 2017val.
-Cityscapes: Results are evaluated on Cityscapes val.
-Pascal: Results are evaluated on Pascal VOC 2007 test.
+This section shows the most important results on the three benchmark datasets: 
+Coco, Pascal VOC and Cityscapes. All models have a fixed ResNet 50 backbone 
+to put the focus on improvoemnts in detection robustness.
+For more results including ones with different backbones and
+instance segmentation results please have 
+a look at the [Leaderboard](LEADERBOARD.md)
 
 Results are sorted by their absolute performance under corruption.
-For all results including instance segmentation results please have 
-a look at the [Leaderboard](LEADERBOARD.md)
 
 ### Coco
 
 Model  | Backbone  | box AP clean | box AP corr. | box % |
-:-----:|:---------:|:------------:|:------------:|:-----:|
-Hybrid Task Cascade | X-101-64x4d-FPN-DCN | 50.6 | 32.7 | 64.7  |    
+:-----:|:---------:|:------------:|:------------:|:-----:| 
 Faster R-CNN Combined | R-50-FPN | 34.6   | 20.4 | 58.9  |
 Mask R-CNN   | R-50-FPN          | 37.3   | 18.7 | 50.1  |
 Faster R-CNN | R-50-FPN          | 36.3   | 18.2 | 50.2  |
