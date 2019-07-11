@@ -1,4 +1,4 @@
-# Leaderboard
+# Comprehensive results table
 
 Results are sorted by their absolute performance under corruption.
 
@@ -133,13 +133,6 @@ Model  | Backbone  | mask AP clean | mask AP corr. | mask % |
 Mask R-CNN Combined  | R-50-FPN | 32.1  | 14.9     | 46.3   |
 Mask R-CNN Stylizes  | R-50-FPN | 23.0  | 11.3     | 49.2   |
 Mask R-CNN   | R-50-FPN  | 32.7    | 10.0          | 30.5   |
-
-
-## How to contribute
-
-Coco: Results are evaluated on COCO 2017val.
-Cityscapes: Results are evaluated on Cityscapes val.
-Pascal: Results are evaluated on Pascal VOC 2007 test.
 
 ## Methods
 

@@ -29,35 +29,41 @@ https://github.com/bethgelab/robust_object_detection
 ## Robust Detection Benchmark
 
 This section shows the most important results on our three benchmark datasets: 
-COCO-C, Pascal-C and Cityscapes-C. All models have a fixed ResNet 50 backbone 
-to put the focus on improvoemnts in detection robustness.
-For more results including ones with different backbones and
-instance segmentation results please have 
-a look at the [Leaderboard](LEADERBOARD.md).
+COCO-C, Pascal-C and Cityscapes-C. All models have a fixed ResNet 50 backbone to put the focus on improvements in detection robustness. For more results including ones with different backbones and instance segmentation results please have a look at the [comprehensive results table](TABLE.md).
 
 Results are ranked by their mean performance under corruption (named mCE in the paper). If you achieve state-of-the-art robustness on any of the three datasets with your approach, please open a pull request where you add the results in the table below. We strongly encourage to use backbone listed in the table below, otherwise robustness gains cannot be disentangled from improved overall performance. In your pull request, you will need to indicate the three metrics P, rPC and mPC (as defined in the paper); mPC will then be used to rank your results.
 
-#### Pascal-C
 
-Model  | Backbone  | box AP50 clean | box AP50 corr. | box % |
-:-----:|:---------:|:--------------:|:--------------:|:-----:|
-Faster R-CNN Combined | R-50-FPN | 80.4 | 56.2       | 69.9  |
-Faster R-CNN | R-50-FPN          | 80.5 | 48.6       | 60.4  |
+#### Evaluation details
+
+Pascal VOC: Results are evaluated on Pascal VOC 2007 test using the AP50 metric.
+COCO: Results are evaluated on COCO 2017val using the mAP50 metric.
+Cityscapes: Results are evaluated on Cityscapes val using the mAP50 metric.
+
+### Leaderboard
+
+
+#### Pascal-C 
+
+Rank | Method | Reference | Model  | Backbone  | clean \[P\] | corrupted \[mPC\] | relative \[rPC\] |
+:-----:|:-----:|:-----:|:-----:|:---------:|:---------:|:--------------:|:-----:|
+- | baseline                      | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 80.5 | 48.6         | 60.4  |
+1 |stylizing training data | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 80.4 | **56.2** | 69.9 |
 
 
 #### COCO-C
 
-Model  | Backbone  | box AP clean | box AP corr. | box % |
-:-----:|:---------:|:------------:|:------------:|:-----:| 
-Faster R-CNN Combined | R-50-FPN | 34.6   | 20.4 | 58.9  |
-Faster R-CNN | R-50-FPN          | 36.3   | 18.2 | 50.2  |
+Rank | Method | Reference | Model  | Backbone  | clean \[P\] | corrupted \[mPC\] | relative \[rPC\] |
+:-----:|:-----:|:-----:|:-----:|:---------:|:---------:|:--------------:|:-----:|
+- | baseline                      | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 36.3 | 18.2         | 50.2  |
+1 |stylizing training data | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 34.6 | **20.4** | 58.9 |
 
 #### Cityscapes-C
 
-Model  | Backbone  | box AP clean | box AP corr. | box % |
-:-----:|:---------:|:------------:|:------------:|:-----:|
-Faster R-CNN Combined | R-50-FPN | 36.3 | 17.2   | 47.4  |
-Faster R-CNN | R-50-FPN  | 36.4   | 12.2         | 33.4  |
+Rank | Method | Reference | Model  | Backbone  | clean \[P\] | corrupted \[mPC\] | relative \[rPC\] |
+:-----:|:-----:|:-----:|:-----:|:---------:|:---------:|:--------------:|:-----:|
+- | baseline                      | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 36.4 | 12.2         | 33.4  |
+1 |stylizing training data | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 36.3 | **17.2** | 47.4 |
 
 ## Citation
 
