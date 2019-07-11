@@ -79,7 +79,7 @@ Hybrid Task Cascade | X-101-64x4d-FPN-DCN | 50.6 | 32.7 | 64.7  |
 Faster R-CNN | X-101-32x4d-FPN-DCN | 43.4   | 26.7 | 61.6  |
 Faster R-CNN | X-101-64x4d-FPN   | 41.3   | 23.4 | 56.6  |
 Mask R-CNN   | R-50-FPN-DCN      | 41.1   | 23.3 | 56.7  |
-Faster R-CNN | R-50-FPN-DCN      | 40.0   | 12.4 | 56.1  |
+Faster R-CNN | R-50-FPN-DCN      | 40.0   | 22.4 | 56.1  |
 Faster R-CNN | X-101-32x4d-FPN   | 40.1   | 22.3 | 55.5  |
 Faster R-CNN | R-101-FPN         | 38.5   | 20.9 | 54.2  |
 Cascade Mask R-CNN | R-50-FPN    | 41.2   | 20.7 | 50.2  |
