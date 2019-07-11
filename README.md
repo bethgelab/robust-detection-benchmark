@@ -36,7 +36,7 @@ Results are ranked by their mean performance under corruption (named mCE in the 
 
 #### Evaluation details
 
-Pascal VOC: Results are evaluated on Pascal VOC 2007 test using the AP50 metric.<br>COCO: Results are evaluated on COCO 2017val using the mAP50 metric.<br>Cityscapes: Results are evaluated on Cityscapes val using the mAP50 metric.
+Pascal VOC: Results are evaluated on Pascal VOC 2007 test using the AP50 metric.<br>COCO: Results are evaluated on COCO 2017 val using the mAP50 metric.<br>Cityscapes: Results are evaluated on Cityscapes val using the mAP50 metric.
 
 ### Leaderboard
 
