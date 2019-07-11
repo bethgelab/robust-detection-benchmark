@@ -43,25 +43,27 @@ Pascal VOC: Results are evaluated on Pascal VOC 2007 test using the AP50 metric.
 
 #### Pascal-C 
 
-Rank | Method | Reference | Model  | Backbone  | clean \[P\] | corrupted \[mPC\] | relative \[rPC\] |
-:-----:|:-----:|:-----:|:-----:|:---------:|:---------:|:--------------:|:-----:|
-\- | baseline                      | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 80.5 | 48.6         | 60.4  |
-1 |stylizing training data | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 80.4 | **56.2** | 69.9 |
+Rank | Method | Reference | Model  | Backbone  | clean P \[AP50\] | corrupted mPC \[AP50\] | relative rPC \[%\] |
+:---:|:------:|:---------:|:------:|:---------:|:----------------:|:----------------------:|:------------------:|
+1 |stylizing training data | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 80.4 | **56.2** | 69.9           |
+\- | baseline | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 80.5 | 48.6              | 60.4               |
 
 
 #### COCO-C
 
-Rank | Method | Reference | Model  | Backbone  | clean \[P\] | corrupted \[mPC\] | relative \[rPC\] |
-:-----:|:-----:|:-----:|:-----:|:---------:|:---------:|:--------------:|:-----:|
-\- | baseline                      | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 36.3 | 18.2         | 50.2  |
-1 |stylizing training data | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 34.6 | **20.4** | 58.9 |
+Rank | Method | Reference | Model  | Backbone  | clean P \[AP\] | corrupted mPC \[AP\] | relative rPC \[%\] |
+:---:|:------:|:---------:|:------:|:---------:|:--------------:|:--------------------:|:------------------:|
+1 |stylizing training data | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 34.6 | **20.4** |       58.9 |
+\- | baseline | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 36.3 | 18.2          | 50.2               |
+
 
 #### Cityscapes-C
 
-Rank | Method | Reference | Model  | Backbone  | clean \[P\] | corrupted \[mPC\] | relative \[rPC\] |
-:-----:|:-----:|:-----:|:-----:|:---------:|:---------:|:--------------:|:-----:|
-\- | baseline                      | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 36.4 | 12.2         | 33.4  |
-1 |stylizing training data | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 36.3 | **17.2** | 47.4 |
+Rank | Method | Reference | Model  | Backbone  | clean P \[AP\] | corrupted mPC \[AP\] | relative rPC \[%\] |
+:---:|:------:|:---------:|:------:|:---------:|:--------------:|:--------------------:|:------------------:|
+1 |stylizing training data | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 36.3 | **17.2** | 47.4       |
+\- | baseline | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 36.4 | 12.2          | 33.4               |
+
 
 ## Citation
 
