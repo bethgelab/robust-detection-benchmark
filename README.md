@@ -47,7 +47,7 @@ Cityscapes: Results are evaluated on Cityscapes val using the mAP50 metric.
 
 Rank | Method | Reference | Model  | Backbone  | clean \[P\] | corrupted \[mPC\] | relative \[rPC\] |
 :-----:|:-----:|:-----:|:-----:|:---------:|:---------:|:--------------:|:-----:|
-- | baseline                      | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 80.5 | 48.6         | 60.4  |
+\- | baseline                      | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 80.5 | 48.6         | 60.4  |
 1 |stylizing training data | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 80.4 | **56.2** | 69.9 |
 
 
@@ -55,14 +55,14 @@ Rank | Method | Reference | Model  | Backbone  | clean \[P\] | corrupted \[mPC\]
 
 Rank | Method | Reference | Model  | Backbone  | clean \[P\] | corrupted \[mPC\] | relative \[rPC\] |
 :-----:|:-----:|:-----:|:-----:|:---------:|:---------:|:--------------:|:-----:|
-- | baseline                      | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 36.3 | 18.2         | 50.2  |
+\- | baseline                      | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 36.3 | 18.2         | 50.2  |
 1 |stylizing training data | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 34.6 | **20.4** | 58.9 |
 
 #### Cityscapes-C
 
 Rank | Method | Reference | Model  | Backbone  | clean \[P\] | corrupted \[mPC\] | relative \[rPC\] |
 :-----:|:-----:|:-----:|:-----:|:---------:|:---------:|:--------------:|:-----:|
-- | baseline                      | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 36.4 | 12.2         | 33.4  |
+\- | baseline                      | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 36.4 | 12.2         | 33.4  |
 1 |stylizing training data | Michaelis et al. 2019 | Faster R-CNN | R-50-FPN | 36.3 | **17.2** | 47.4 |
 
 ## Citation
