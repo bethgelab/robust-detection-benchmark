@@ -36,9 +36,7 @@ Results are sorted by their absolute performance under corruption.
 Model  | Backbone  | box AP clean | box AP corr. | box % |
 :-----:|:---------:|:------------:|:------------:|:-----:| 
 Faster R-CNN Combined | R-50-FPN | 34.6   | 20.4 | 58.9  |
-Mask R-CNN   | R-50-FPN          | 37.3   | 18.7 | 50.1  |
 Faster R-CNN | R-50-FPN          | 36.3   | 18.2 | 50.2  |
-RetinaNet    | R-50-FPN          | 35.6   | 17.8 | 50.1  |
 
 ### Pascal VOC
 
@@ -54,7 +52,6 @@ Model  | Backbone  | box AP clean | box AP corr. | box % |
 :-----:|:---------:|:------------:|:------------:|:-----:|
 Faster R-CNN Combined | R-50-FPN | 36.3 | 17.2   | 47.4  |
 Faster R-CNN | R-50-FPN  | 36.4   | 12.2         | 33.4  |
-Mask R-CNN   | R-50-FPN  | 37.5   | 11.7         | 31.1  |
 
 
 
