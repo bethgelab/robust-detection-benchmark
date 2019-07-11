@@ -1,4 +1,4 @@
-# robust-detection-benchmark
+# Robust Detection Benchmark
 
 This repository contains code, data and a benchmark leaderboard from the paper "Benchmarking Corruption Robustness in Object~Detection: Autonomous Driving when Winter is Coming" by Claudio Michaelis\*, Benjamin Mitzkus\*, Robert Geirhos\*, Evgenia Rusak\*, Oliver Bringmann, Matthias Bethge & Wieland Brendel.
 
