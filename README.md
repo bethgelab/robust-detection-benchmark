@@ -20,7 +20,7 @@ Stylize arbitrary datasets:
 https://github.com/bethgelab/stylize-datasets
 
 Corrupt arbitrary datasets:
-https://github.com/bethgelab/add-common-image-corruptions
+https://github.com/bethgelab/imagecorruptions
 
 Object detection:
 https://github.com/bethgelab/robust_object_detection
