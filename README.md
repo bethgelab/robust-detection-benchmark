@@ -23,7 +23,7 @@ Corrupt arbitrary datasets:
 https://github.com/bethgelab/imagecorruptions
 
 Object detection:
-https://github.com/bethgelab/robust_object_detection
+https://github.com/bethgelab/mmdetection
 
 
 ## Robust Detection Benchmark
@@ -69,10 +69,10 @@ Rank | Method | Reference | Model  | Backbone  | clean P \[AP\] | corrupted mPC 
 
 If you use our code or the benchmark, please consider citing:
 ```
-@article{xyz2019,
-  title={xxx},
-  author={xyz},
-  journal={arXiv:},
+@article{michaelis2019dragon,
+  title={Benchmarking Robustness in Object Detection: Autonomous Driving when Winter is Coming},
+  author={Claudio~Michaelis and Benjamin~Mitzkus and Robert~Geirhos and Evgenia~Rusak and Oliver~Bringmann and Alexander~S.~Ecker and Matthias~Bethge and Wieland~Brendel},
+  journal={arXiv},
   year={2019}
 }
 ```
