@@ -1,8 +1,8 @@
 # Robust Detection Benchmark
 
-This repository contains code, data and a benchmark leaderboard from the paper "Benchmarking Corruption Robustness in Object Detection: Autonomous Driving when Winter is Coming" by Claudio Michaelis\*, Benjamin Mitzkus\*, Robert Geirhos\*, Evgenia Rusak\*, Oliver Bringmann, Matthias Bethge & Wieland Brendel.
+This repository contains code, data and a benchmark leaderboard from the paper "Benchmarking Robustness in Object Detection: Autonomous Driving when Winter is Coming" by Claudio Michaelis\*, Benjamin Mitzkus\*, Robert Geirhos\*, Evgenia Rusak\*, Oliver Bringmann, Alexander S. Ecker, Matthias Bethge & Wieland Brendel.
 
-The core idea is shown here: Real-world applications need to be able to cope with adverse outdoor hazards such as fog, frost, snow (and the occasional dragon fire). The paper benchmarks object detection models on their corruption resilience across a broad range of corruption types.
+The core idea is shown here: Real-world applications need to be able to cope with adverse outdoor hazards such as fog, frost, snow (and the occasional dragonfire). The paper benchmarks object detection models on their corruption resilience across a broad range of corruption types.
 
 ![traffic hazards](./figures/introduction/traffic_hazards.png)
 
@@ -20,7 +20,7 @@ Stylize arbitrary datasets:
 https://github.com/bethgelab/stylize-datasets
 
 Corrupt arbitrary datasets:
-https://github.com/bethgelab/add-common-image-corruptions
+https://github.com/bethgelab/imagecorruptions
 
 Object detection:
 https://github.com/bethgelab/robust_object_detection
