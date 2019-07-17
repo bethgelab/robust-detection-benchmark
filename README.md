@@ -70,8 +70,12 @@ Rank | Method | Reference | Model  | Backbone  | clean P \[AP\] | corrupted mPC 
 If you use our code or the benchmark, please consider citing:
 ```
 @article{michaelis2019dragon,
-  title={Benchmarking Robustness in Object Detection: Autonomous Driving when Winter is Coming},
-  author={Claudio~Michaelis and Benjamin~Mitzkus and Robert~Geirhos and Evgenia~Rusak and Oliver~Bringmann and Alexander~S.~Ecker and Matthias~Bethge and Wieland~Brendel},
+  title={Benchmarking Robustness in Object Detection: 
+    Autonomous Driving when Winter is Coming},
+  author={Michaelis, Claudio and Mitzkus, Benjamin and 
+    Geirhos, Robert and Rusak, Evgenia and 
+    Bringmann, Oliver and Ecker, Alexander S. and 
+    Bethge, Matthias and Brendel, Wieland},
   journal={arXiv},
   year={2019}
 }
